@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yusuf - AI Mühendisi</title>
+    <title>Yusuf Enes Özkan - Bilgisayar Mühendisi</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Yusuf</div>
+            <div class="logo">Yusuf Enes</div>
             <ul>
                 <li><a href="#home">Ana Sayfa</a></li>
                 <li><a href="#about">Hakkımda</a></li>
@@ -21,8 +22,9 @@
 
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Merhaba, Ben Yusuf</h1>
-            <p>Erciyes Üniversitesi'nde AI ile uğraşan Bilgisayar Mühendisi</p>
+            <h1>Merhaba, Ben Yusuf Enes</h1>
+            <p>Erciyes Üniversitesi Bilgisayar Mühendisliği Öğrencisi</p>
+            <p class="subtitle">C# | Java | Unity | Yapay Zeka</p>
             <a href="#contact" class="btn">İletişime Geç</a>
         </div>
     </section>
@@ -30,16 +32,17 @@
     <section id="about" class="section">
         <h2>Hakkımda</h2>
         <div class="about-content">
-            <p>Erciyes Üniversitesi Bilgisayar Mühendisliği öğrencisiyim ve Yapay Zeka alanında çalışmalar yapıyorum. Machine learning, deep learning ve doğal dil işleme konularında deneyim kazanmaktayım.</p>
+            <p>Erciyes Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. Yapay Zeka, oyun geliştirme ve algoritma çözümleri konularında çalışmalar yapıyorum. Unity ile 3D oyun geliştirme, C# ve Java ile çeşitli projeler geliştiriyorum.</p>
             <div class="skills">
                 <h3>Yetenekler</h3>
                 <div class="skill-tags">
+                    <span>C#</span>
+                    <span>Java</span>
+                    <span>Unity</span>
                     <span>Python</span>
-                    <span>TensorFlow</span>
-                    <span>PyTorch</span>
-                    <span>Machine Learning</span>
-                    <span>Deep Learning</span>
-                    <span>NLP</span>
+                    <span>Yapay Zeka</span>
+                    <span>Oyun Geliştirme</span>
+                    <span>Algoritmalar</span>
                 </div>
             </div>
         </div>
@@ -49,19 +52,57 @@
         <h2>Projeler</h2>
         <div class="projects-grid">
             <div class="project-card">
-                <h3>AI Proje 1</h3>
-                <p>Yapay zeka tabanlı bir proje açıklaması buraya gelecek.</p>
-                <a href="#" class="project-link">Projeyi Gör</a>
+                <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+                <h3>Hex Oyunu</h3>
+                <p>Erciyes Üniversitesi Bilgisayar Mühendisliği öğrencileri olarak geliştirdiğimiz strateji oyunu. Java ile yazıldı.</p>
+                <div class="project-tech">
+                    <span>Java</span>
+                </div>
+                <a href="https://github.com/yusufenesozkan/Group9_HexGame" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub'da Gör</a>
             </div>
+
             <div class="project-card">
-                <h3>AI Proje 2</h3>
-                <p>Yapay zeka tabanlı bir proje açıklaması buraya gelecek.</p>
-                <a href="#" class="project-link">Projeyi Gör</a>
+                <div class="project-icon"><i class="fas fa-robot"></i></div>
+                <h3>Labirent Problemi</h3>
+                <p>C# ile geliştirilen labirent çözüm algoritması ve görselleştirmesi.</p>
+                <div class="project-tech">
+                    <span>C#</span>
+                </div>
+                <a href="https://github.com/yusufenesozkan/LabirentProblemi" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub'da Gör</a>
             </div>
+
             <div class="project-card">
-                <h3>AI Proje 3</h3>
-                <p>Yapay zeka tabanlı bir proje açıklaması buraya gelecek.</p>
-                <a href="#" class="project-link">Projeyi Gör</a>
+                <div class="project-icon"><i class="fas fa-dice"></i></div>
+                <h3>Olasılık Problemi</h3>
+                <p>C# ile yazılmış olasılık hesaplama ve simülasyon projesi.</p>
+                <div class="project-tech">
+                    <span>C#</span>
+                </div>
+                <a href="https://github.com/yusufenesozkan/OlasilikProblemi" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub'da Gör</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-cube"></i></div>
+                <h3>Unity 3D Oyun Geliştirme</h3>
+                <p>BTK Akademi eğitimleri kapsamında geliştirdiğim Unity 3D oyun projeleri serisi.</p>
+                <div class="project-tech">
+                    <span>Unity</span>
+                    <span>C#</span>
+                    <span>3D</span>
+                </div>
+                <a href="https://github.com/yusufenesozkan?tab=repositories&q=BTKSample" class="project-link" target="_blank"><i class="fab fa-github"></i> Tümünü Gör</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon"><i class="fas fa-brain"></i></div>
+                <h3>AI ile 3D Oyun</h3>
+                <p>Yapay zeka entegreli Unity 3D oyun projesi. NPC davranışları ve oyun mekanikleri.</p>
+                <div class="project-tech">
+                    <span>Unity</span>
+                    <span>Yapay Zeka</span>
+                    <span>C#</span>
+                </div>
+                <a href="https://github.com/yusufenesozkan/BTKSample3" class="project-link" target="_blank"><i class="fab fa-github"></i> GitHub'da Gör</a>
             </div>
         </div>
     </section>
@@ -71,15 +112,21 @@
         <div class="contact-content">
             <p>Benimle iletişime geçmek için:</p>
             <div class="contact-links">
-                <a href="mailto:email@example.com" class="contact-link">Email</a>
-                <a href="https://github.com/username" class="contact-link" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/username" class="contact-link" target="_blank">LinkedIn</a>
+                <a href="mailto:y.enesozkann@gmail.com" class="contact-link" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/yusufenesozkan" class="contact-link" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://tr.linkedin.com/in/yusuf-enes-%C3%B6zkan-839340273" class="contact-link" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Yusuf. Tüm hakları saklıdır.</p>
+        <p>&copy; 2026 Yusuf Enes Özkan. Tüm hakları saklıdır.</p>
     </footer>
 
     <script src="script.js"></script>
